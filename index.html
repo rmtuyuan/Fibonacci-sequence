@@ -40,7 +40,8 @@
 
         var result = fib(n);
         var $ele = document.createElement('p');
-        console.log('第' + n + '个数是：' + result) ;
+       $ele.innerHTML = '第' + n + '个数是：' + result;
+        $resultEle.appendChild($ele);
 
     });
     </script>
